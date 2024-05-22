@@ -1156,5 +1156,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Label: TimeinState - Random
-  AfterTimeMin: 1
-  AfterTimeMax: 2
+  AfterTimeMin: 0.5
+  AfterTimeMax: 1.2
