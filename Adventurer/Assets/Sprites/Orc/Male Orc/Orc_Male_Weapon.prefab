@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2731657507292488593}
   - component: {fileID: 2076535893472185907}
   m_Layer: 13
-  m_Name: OrcAttack
+  m_Name: Orc_Male_Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -86,10 +86,10 @@ MonoBehaviour:
   MirrorCharacterAnimatorParameters: 0
   EquippedAnimationParameter: 
   IdleAnimationParameter: 
-  StartAnimationParameter: 
+  StartAnimationParameter: Attack1
   DelayBeforeUseAnimationParameter: 
   SingleUseAnimationParameter: 
-  UseAnimationParameter: Attack1
+  UseAnimationParameter: 
   DelayBetweenUsesAnimationParameter: 
   InCooldownAnimationParameter: 
   StopAnimationParameter: 
@@ -158,15 +158,15 @@ MonoBehaviour:
   AreaOffset: {x: 2.2, y: 0.1}
   AreaSize: {x: 1.2, y: 1}
   ExistingDamageArea: {fileID: 0}
-  InitialDelay: 0.25
-  ActiveDuration: 0.1
+  InitialDelay: 0.26
+  ActiveDuration: 0.09
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 512
   ApplyDamageOnTriggerEnter: 1
   ApplyDamageOnTriggerStay: 1
   MinDamageCaused: 2
-  MaxDamageCaused: 4
+  MaxDamageCaused: 3
   Knockback: 1
   KnockbackForce: {x: 10, y: 2}
   InvincibilityDuration: 0.5
@@ -221,10 +221,10 @@ MonoBehaviour:
   MirrorCharacterAnimatorParameters: 0
   EquippedAnimationParameter: 
   IdleAnimationParameter: 
-  StartAnimationParameter: 
+  StartAnimationParameter: Attack2
   DelayBeforeUseAnimationParameter: 
   SingleUseAnimationParameter: 
-  UseAnimationParameter: Attack2
+  UseAnimationParameter: 
   DelayBetweenUsesAnimationParameter: 
   InCooldownAnimationParameter: 
   StopAnimationParameter: 
@@ -290,18 +290,18 @@ MonoBehaviour:
     RecoilFeedback: {fileID: 0}
   MeleeDamageAreaMode: 0
   DamageAreaShape: 0
-  AreaOffset: {x: 1, y: 0}
-  AreaSize: {x: 1, y: 1}
+  AreaOffset: {x: 1.1, y: 0.4}
+  AreaSize: {x: 1.7, y: 0.5}
   ExistingDamageArea: {fileID: 0}
-  InitialDelay: 0
-  ActiveDuration: 1
+  InitialDelay: 0.15
+  ActiveDuration: 0.8
   TargetLayerMask:
     serializedVersion: 2
     m_Bits: 512
   ApplyDamageOnTriggerEnter: 1
   ApplyDamageOnTriggerStay: 1
-  MinDamageCaused: 10
-  MaxDamageCaused: 0
+  MinDamageCaused: 2
+  MaxDamageCaused: 3
   Knockback: 0
   KnockbackForce: {x: 10, y: 2}
   InvincibilityDuration: 0.5
@@ -356,10 +356,10 @@ MonoBehaviour:
   MirrorCharacterAnimatorParameters: 0
   EquippedAnimationParameter: 
   IdleAnimationParameter: 
-  StartAnimationParameter: 
+  StartAnimationParameter: Attack3
   DelayBeforeUseAnimationParameter: 
   SingleUseAnimationParameter: 
-  UseAnimationParameter: Attack3
+  UseAnimationParameter: 
   DelayBetweenUsesAnimationParameter: 
   InCooldownAnimationParameter: 
   StopAnimationParameter: 
@@ -425,10 +425,10 @@ MonoBehaviour:
     RecoilFeedback: {fileID: 0}
   MeleeDamageAreaMode: 0
   DamageAreaShape: 0
-  AreaOffset: {x: 1, y: 0}
-  AreaSize: {x: 1, y: 1}
+  AreaOffset: {x: 2, y: -0.1}
+  AreaSize: {x: 0.5, y: 1.6}
   ExistingDamageArea: {fileID: 0}
-  InitialDelay: 0
+  InitialDelay: 0.19
   ActiveDuration: 1
   TargetLayerMask:
     serializedVersion: 2
@@ -453,7 +453,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DroppableCombo: 1
-  DropComboDelay: 0.5
+  DropComboDelay: 0.1
   ComboInProgressAnimationParameter: ComboInProgress
   Weapons: []
   OwnerCharacterHandleWeapon: {fileID: 0}

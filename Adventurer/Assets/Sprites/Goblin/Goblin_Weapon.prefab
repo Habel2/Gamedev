@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6806929718187242547}
   - component: {fileID: 3797453036018534764}
   m_Layer: 13
-  m_Name: GoblinMelee
+  m_Name: Goblin_Weapon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
