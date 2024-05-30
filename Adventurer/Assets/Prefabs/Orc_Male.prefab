@@ -595,17 +595,8 @@ MonoBehaviour:
     Transitions:
       array:
       - Decision: {fileID: 5884290115894944971}
-        TrueState: Random
-        FalseState: 
-  - StateName: Random
-    Actions:
-      array:
-      - {fileID: 8999005415220583785}
-    Transitions:
-      array:
-      - Decision: {fileID: 1756838352591758702}
         TrueState: MoveTowardsEnemy
-        FalseState: Idle
+        FalseState: 
   - StateName: MoveTowardsEnemy
     Actions:
       array:

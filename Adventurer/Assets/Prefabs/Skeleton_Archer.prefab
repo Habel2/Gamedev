@@ -25,17 +25,19 @@ GameObject:
   - component: {fileID: 4658460493536035544}
   - component: {fileID: 2287446657426344044}
   - component: {fileID: -5919022507869335301}
+  - component: {fileID: 1244877375027040337}
   - component: {fileID: 7184261937241788487}
   - component: {fileID: 7843236742481984924}
   - component: {fileID: 7683833461950278377}
   - component: {fileID: 436369698996192365}
-  - component: {fileID: 1917532025709578671}
-  - component: {fileID: 3566749589259813748}
   - component: {fileID: -9115376757879080009}
   - component: {fileID: 1575936074650130759}
   - component: {fileID: -8410833681625811943}
   - component: {fileID: -1323908592492024559}
   - component: {fileID: -5787303925087484277}
+  - component: {fileID: 701754381148040808}
+  - component: {fileID: 8203014403018725885}
+  - component: {fileID: 6202928128899255531}
   m_Layer: 13
   m_Name: Skeleton_Archer
   m_TagString: Untagged
@@ -55,8 +57,7 @@ Transform:
   m_LocalPosition: {x: 0.27832174, y: 17.04121, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 3010654642638123143}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &256751736274283904
@@ -543,25 +544,37 @@ MonoBehaviour:
     Transitions:
       array:
       - Decision: {fileID: -1323908592492024559}
-        TrueState: Attack
-        FalseState: 
-  - StateName: Attack
+        TrueState: MoveTowardsTarget
+        FalseState: Idle
+  - StateName: MoveTowardsTarget
     Actions:
       array:
       - {fileID: -5787303925087484277}
-      - {fileID: 436369698996192365}
+      - {fileID: 701754381148040808}
     Transitions:
       array:
       - Decision: {fileID: 2287446657426344044}
-        TrueState: MoveAway2
+        TrueState: MoveAway
         FalseState: 
-      - Decision: {fileID: 4658460493536035544}
-        TrueState: ChangeWeapontoMelee
+      - Decision: {fileID: 1244877375027040337}
+        TrueState: Shoot
         FalseState: 
-      - Decision: {fileID: -5919022507869335301}
-        TrueState: MoveAway1
-        FalseState: 
+  - StateName: Shoot
+    Actions:
+      array:
+      - {fileID: 436369698996192365}
+    Transitions:
+      array:
       - Decision: {fileID: 1575936074650130759}
+        TrueState: Idle
+        FalseState: 
+  - StateName: MoveAway
+    Actions:
+      array:
+      - {fileID: 7683833461950278377}
+    Transitions:
+      array:
+      - Decision: {fileID: -9115376757879080009}
         TrueState: Idle
         FalseState: 
   - StateName: MoveAway1
@@ -569,17 +582,16 @@ MonoBehaviour:
       array:
       - {fileID: 7683833461950278377}
     Transitions:
-      array: []
-  - StateName: ChangeWeapontoMelee
+      array:
+      - Decision: {fileID: 0}
+        TrueState: 
+        FalseState: 
+  - StateName: MoveAway1
     Actions:
       array:
-      - {fileID: 1917532025709578671}
-      - {fileID: 436369698996192365}
+      - {fileID: 7683833461950278377}
     Transitions:
-      array:
-      - Decision: {fileID: -9115376757879080009}
-        TrueState: Idle
-        FalseState: 
+      array: []
   TimeInThisState: 0
   Target: {fileID: 0}
   _lastKnownTargetPosition: {x: 0, y: 0, z: 0}
@@ -663,6 +675,24 @@ MonoBehaviour:
   TargetLayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &1244877375027040337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976693646557392877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c522f668e1b331438fd11022c69a8a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: Target for Range
+  Radius: 15
+  DetectionOriginOffset: {x: 0, y: 0, z: 0}
+  TargetLayer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!114 &7184261937241788487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,37 +765,6 @@ MonoBehaviour:
   AimAtTarget: 1
   TargetOffset: {x: 0, y: 0, z: 0}
   TargetHandleWeapon: {fileID: 0}
---- !u!114 &1917532025709578671
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4976693646557392877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a93d6b69d88cf584492eef833cde0479, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationMode: 0
-  Label: Change for Melee
-  NewWeapon: {fileID: 2721296135764114883, guid: f877c9e1c3d24914dab3cd0ef4712687,
-    type: 3}
---- !u!114 &3566749589259813748
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4976693646557392877}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a93d6b69d88cf584492eef833cde0479, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  InitializationMode: 0
-  Label: Change for Range
-  NewWeapon: {fileID: 24929338409199703, guid: 60a83582c71cd4c4aad97d8b55366f3c, type: 3}
 --- !u!114 &-9115376757879080009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -843,77 +842,49 @@ MonoBehaviour:
   InitializationMode: 0
   Label: 
   OnlyRunOnce: 0
---- !u!1001 &4062240949559938882
-PrefabInstance:
+--- !u!114 &701754381148040808
+MonoBehaviour:
   m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1599728519005848080}
-    m_Modifications:
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 1.0592469
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.42908478
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.011240151
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6460467156559811139, guid: f877c9e1c3d24914dab3cd0ef4712687,
-        type: 3}
-      propertyPath: m_Name
-      value: Skeleton_Archer_Melee_Weapon
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: f877c9e1c3d24914dab3cd0ef4712687, type: 3}
---- !u!4 &3010654642638123143 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1267768709804703685, guid: f877c9e1c3d24914dab3cd0ef4712687,
-    type: 3}
-  m_PrefabInstance: {fileID: 4062240949559938882}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976693646557392877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5fce3bcf6da4a2d46a0a02c021b5bb0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: 
+  MinimumDistance: 15
+--- !u!114 &8203014403018725885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976693646557392877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d6b69d88cf584492eef833cde0479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: Change To Melee
+  NewWeapon: {fileID: 2721296135764114883, guid: f877c9e1c3d24914dab3cd0ef4712687,
+    type: 3}
+--- !u!114 &6202928128899255531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4976693646557392877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93d6b69d88cf584492eef833cde0479, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: Change To Range
+  NewWeapon: {fileID: 24929338409199703, guid: 60a83582c71cd4c4aad97d8b55366f3c, type: 3}
