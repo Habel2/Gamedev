@@ -35,6 +35,10 @@ GameObject:
   - component: {fileID: -2131287346479561947}
   - component: {fileID: 5179771415657271583}
   - component: {fileID: 6418667564965340584}
+  - component: {fileID: 6124536281413366294}
+  - component: {fileID: 1756838352591758702}
+  - component: {fileID: 7426270529534610821}
+  - component: {fileID: -6826377611410215795}
   m_Layer: 13
   m_Name: Orc_Male
   m_TagString: Untagged
@@ -563,12 +567,27 @@ MonoBehaviour:
   - StateName: Idle
     Actions:
       array:
+      - {fileID: 8999005415220583785}
+    Transitions:
+      array:
+      - Decision: {fileID: 7051217370725804719}
+        TrueState: LOS
+        FalseState: 
+      - Decision: {fileID: 6124536281413366294}
+        TrueState: Patrol
+        FalseState: 
+  - StateName: Patrol
+    Actions:
+      array:
       - {fileID: 56134375222694306}
     Transitions:
       array:
       - Decision: {fileID: 7051217370725804719}
         TrueState: LOS
-        FalseState: Idle
+        FalseState: 
+      - Decision: {fileID: 6124536281413366294}
+        TrueState: Idle
+        FalseState: 
   - StateName: LOS
     Actions:
       array:
@@ -576,9 +595,18 @@ MonoBehaviour:
     Transitions:
       array:
       - Decision: {fileID: 5884290115894944971}
-        TrueState: Walking
+        TrueState: Random
+        FalseState: 
+  - StateName: Random
+    Actions:
+      array:
+      - {fileID: 8999005415220583785}
+    Transitions:
+      array:
+      - Decision: {fileID: 1756838352591758702}
+        TrueState: MoveTowardsEnemy
         FalseState: Idle
-  - StateName: MoveTowards Enemy
+  - StateName: MoveTowardsEnemy
     Actions:
       array:
       - {fileID: -5799937274552611998}
@@ -595,6 +623,7 @@ MonoBehaviour:
   - StateName: Attacking
     Actions:
       array:
+      - {fileID: -6826377611410215795}
       - {fileID: 5179771415657271583}
     Transitions:
       array:
@@ -825,3 +854,62 @@ MonoBehaviour:
   InitializationMode: 0
   Label: 
   MinimumDistance: 1.5
+--- !u!114 &6124536281413366294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2275746639522284677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7939ffd2f5df4e8efb5fa83e99637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: TimeInStateIdle-Patrol
+  AfterTimeMin: 5
+  AfterTimeMax: 8
+--- !u!114 &1756838352591758702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2275746639522284677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3413760df3ff83144aa52249e1d7f346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: 
+  TotalChance: 10
+  Odds: 5
+--- !u!114 &7426270529534610821
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2275746639522284677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7939ffd2f5df4e8efb5fa83e99637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: ChaseEnemy
+  AfterTimeMin: 8
+  AfterTimeMax: 10
+--- !u!114 &-6826377611410215795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2275746639522284677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1197587a2d7c9324f9e4255615d7dec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: 

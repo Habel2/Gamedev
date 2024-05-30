@@ -35,6 +35,8 @@ GameObject:
   - component: {fileID: -5878912498269127836}
   - component: {fileID: -1206679068368828491}
   - component: {fileID: -990885315937844419}
+  - component: {fileID: 8137885204553902886}
+  - component: {fileID: 9121994592897847909}
   m_Layer: 13
   m_Name: Goblin1
   m_TagString: Untagged
@@ -228,7 +230,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.25, y: 3.25}
+    oldSize: {x: 2.25, y: 3.375}
     newSize: {x: 2.25, y: 3.25}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -540,12 +542,27 @@ MonoBehaviour:
   - StateName: Idle
     Actions:
       array:
-      - {fileID: -3450066387132768496}
+      - {fileID: -5986321149334234693}
     Transitions:
       array:
+      - Decision: {fileID: 8137885204553902886}
+        TrueState: Patrol
+        FalseState: 
       - Decision: {fileID: -9054925977246137730}
         TrueState: LOS
         FalseState: Idle
+  - StateName: Patrol
+    Actions:
+      array:
+      - {fileID: -3450066387132768496}
+    Transitions:
+      array:
+      - Decision: {fileID: 8137885204553902886}
+        TrueState: Idle
+        FalseState: 
+      - Decision: {fileID: -9054925977246137730}
+        TrueState: LOS
+        FalseState: 
   - StateName: LOS
     Actions:
       array:
@@ -572,6 +589,7 @@ MonoBehaviour:
   - StateName: Attack
     Actions:
       array:
+      - {fileID: 9121994592897847909}
       - {fileID: 718828647561433132}
     Transitions:
       array:
@@ -816,3 +834,32 @@ MonoBehaviour:
   TargetLayer:
     serializedVersion: 2
     m_Bits: 512
+--- !u!114 &8137885204553902886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3177442525926858407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7939ffd2f5df4e8efb5fa83e99637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: TimeInState Idle-Patrol
+  AfterTimeMin: 3
+  AfterTimeMax: 8
+--- !u!114 &9121994592897847909
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3177442525926858407}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1197587a2d7c9324f9e4255615d7dec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: 

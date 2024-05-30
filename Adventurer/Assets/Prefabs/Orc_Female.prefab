@@ -33,6 +33,9 @@ GameObject:
   - component: {fileID: 6104657974879055206}
   - component: {fileID: 6387663946249621207}
   - component: {fileID: 1782182904793123652}
+  - component: {fileID: 8098485335817322393}
+  - component: {fileID: 4905420622770259177}
+  - component: {fileID: 1369292016456209660}
   m_Layer: 13
   m_Name: Orc_Female
   m_TagString: Untagged
@@ -526,6 +529,15 @@ MonoBehaviour:
     Transitions:
       array:
       - Decision: {fileID: 3671365583123503513}
+        TrueState: Random
+        FalseState: Idle
+  - StateName: Random
+    Actions:
+      array:
+      - {fileID: 6387663946249621207}
+    Transitions:
+      array:
+      - Decision: {fileID: 8098485335817322393}
         TrueState: MoveTowardsEnemy
         FalseState: Idle
   - StateName: MoveTowardsEnemy
@@ -536,6 +548,9 @@ MonoBehaviour:
       - {fileID: 1151513090862192761}
     Transitions:
       array:
+      - Decision: {fileID: 4905420622770259177}
+        TrueState: Idle
+        FalseState: 
       - Decision: {fileID: 5244729921384998120}
         TrueState: MoveAway
         FalseState: 
@@ -545,6 +560,7 @@ MonoBehaviour:
   - StateName: Attack
     Actions:
       array:
+      - {fileID: 1369292016456209660}
       - {fileID: 7716480070920704285}
     Transitions:
       array:
@@ -775,3 +791,47 @@ MonoBehaviour:
   InitializationMode: 0
   Label: 
   OnlyRunOnce: 0
+--- !u!114 &8098485335817322393
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8105355245171999443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3413760df3ff83144aa52249e1d7f346, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: 
+  TotalChance: 10
+  Odds: 5
+--- !u!114 &4905420622770259177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8105355245171999443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58b7939ffd2f5df4e8efb5fa83e99637, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Label: ChaseEnemy
+  AfterTimeMin: 8
+  AfterTimeMax: 10
+--- !u!114 &1369292016456209660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8105355245171999443}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1197587a2d7c9324f9e4255615d7dec8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  InitializationMode: 0
+  Label: 
