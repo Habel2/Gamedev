@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,19 +113,19 @@ TextureImporter:
       name: _JumpFallInbetween_0
       rect:
         serializedVersion: 2
-        x: 42
+        x: 41
         y: 1
-        width: 25
-        height: 36
+        width: 27
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a450552999f02454aa1b0070684acac3
-      internalID: 711427127
+      spriteID: b722ec2efdcda9144a7a440b17971d12
+      internalID: 1300010245
       vertices: []
       indices: 
       edges: []
@@ -134,19 +134,19 @@ TextureImporter:
       name: _JumpFallInbetween_1
       rect:
         serializedVersion: 2
-        x: 160
+        x: 159
         y: 1
-        width: 27
-        height: 36
+        width: 29
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21b323e5bc70aec49ac4d0c0551d8845
-      internalID: 1129577953
+      spriteID: 073c9478020e7a846b774ead070e38cb
+      internalID: 388229342
       vertices: []
       indices: 
       edges: []
@@ -162,8 +162,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      _JumpFallInbetween_0: 711427127
-      _JumpFallInbetween_1: 1129577953
+      _JumpFallInbetween_0: 1300010245
+      _JumpFallInbetween_1: 388229342
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

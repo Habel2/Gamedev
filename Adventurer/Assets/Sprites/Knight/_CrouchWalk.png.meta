@@ -113,19 +113,19 @@ TextureImporter:
       name: _CrouchWalk_0
       rect:
         serializedVersion: 2
-        x: 44
+        x: 43
         y: 0
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.68}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3343bde66b82764bb3a165193920f1e
-      internalID: -856523301
+      spriteID: e53b15846be776442916922678767b92
+      internalID: -291704515
       vertices: []
       indices: 
       edges: []
@@ -134,19 +134,19 @@ TextureImporter:
       name: _CrouchWalk_1
       rect:
         serializedVersion: 2
-        x: 164
+        x: 163
         y: 0
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.68}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95a6ca64ca2773a4cad96ecaac43eedd
-      internalID: 676515631
+      spriteID: 6aaf1fca83c22cb41a3f63aa3928bf73
+      internalID: 42891488
       vertices: []
       indices: 
       edges: []
@@ -155,19 +155,19 @@ TextureImporter:
       name: _CrouchWalk_2
       rect:
         serializedVersion: 2
-        x: 284
+        x: 283
         y: 0
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.68}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6b12a5ae313e5b4aaaa0b0aab8a1b0a
-      internalID: 1228573709
+      spriteID: 49ec1ef57c2adad47b31567d0ed02a3d
+      internalID: 1410335472
       vertices: []
       indices: 
       edges: []
@@ -176,19 +176,19 @@ TextureImporter:
       name: _CrouchWalk_3
       rect:
         serializedVersion: 2
-        x: 404
-        y: 0
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 403
+        y: 1
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.68}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5d1548624d645b45a920c2f84637d04
-      internalID: -1633991147
+      spriteID: 25cd844420b2df544a09b915a13854e0
+      internalID: 1388635046
       vertices: []
       indices: 
       edges: []
@@ -197,19 +197,19 @@ TextureImporter:
       name: _CrouchWalk_4
       rect:
         serializedVersion: 2
-        x: 524
+        x: 523
         y: 0
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.68}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77b05bf3917fed94c98acabda5fc8172
-      internalID: -1770201052
+      spriteID: 70d0ad13f6542a64db51487486c18276
+      internalID: -807341779
       vertices: []
       indices: 
       edges: []
@@ -218,19 +218,19 @@ TextureImporter:
       name: _CrouchWalk_5
       rect:
         serializedVersion: 2
-        x: 644
+        x: 643
         y: 0
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.68}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ef401b86216c67742ba1157bc5568c31
-      internalID: -2002847870
+      spriteID: 47c605e5f0fa50147b26cfa3df71438e
+      internalID: 1115525893
       vertices: []
       indices: 
       edges: []
@@ -239,19 +239,19 @@ TextureImporter:
       name: _CrouchWalk_6
       rect:
         serializedVersion: 2
-        x: 764
+        x: 763
         y: 0
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.68}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1ddfe587499878c47aa986122786667a
-      internalID: -30607400
+      spriteID: 557b07cad780aa7468fe666dbbac9834
+      internalID: 1167601225
       vertices: []
       indices: 
       edges: []
@@ -260,19 +260,19 @@ TextureImporter:
       name: _CrouchWalk_7
       rect:
         serializedVersion: 2
-        x: 884
+        x: 883
         y: 0
-        width: 30
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 29
+        height: 28
+      alignment: 9
+      pivot: {x: 0.4, y: 0.68}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c9dd0ce2e0e63a648b3a385b1d81ffd2
-      internalID: -1230245621
+      spriteID: 566fd8d5c802cae4cb9c518f07911dc6
+      internalID: 1384612353
       vertices: []
       indices: 
       edges: []
@@ -288,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      _CrouchWalk_0: -856523301
-      _CrouchWalk_1: 676515631
-      _CrouchWalk_2: 1228573709
-      _CrouchWalk_3: -1633991147
-      _CrouchWalk_4: -1770201052
-      _CrouchWalk_5: -2002847870
-      _CrouchWalk_6: -30607400
-      _CrouchWalk_7: -1230245621
+      _CrouchWalk_0: -291704515
+      _CrouchWalk_1: 42891488
+      _CrouchWalk_2: 1410335472
+      _CrouchWalk_3: 1388635046
+      _CrouchWalk_4: -807341779
+      _CrouchWalk_5: 1115525893
+      _CrouchWalk_6: 1167601225
+      _CrouchWalk_7: 1384612353
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

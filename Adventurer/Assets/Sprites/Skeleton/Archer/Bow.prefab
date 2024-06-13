@@ -230,7 +230,7 @@ MonoBehaviour:
   WeaponAngleAnimationParameter: 
   WeaponAngleRelativeAnimationParameter: 
   WeaponStartMMFeedback: {fileID: 8589023870221419133}
-  WeaponUsedMMFeedback: {fileID: 2915466440642846818}
+  WeaponUsedMMFeedback: {fileID: 0}
   WeaponStopMMFeedback: {fileID: 7262003569501947289}
   WeaponReloadMMFeedback: {fileID: 0}
   WeaponReloadNeededMMFeedback: {fileID: 0}

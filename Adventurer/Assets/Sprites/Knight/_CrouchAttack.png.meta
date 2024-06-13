@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 394bdace22d404e43b78bbbceb583d2a
+guid: 3b7a3ddadd47a3a4ea91cc1b7843514b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,211 +110,85 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: _Death_0
+      name: _CrouchAttack_0
       rect:
         serializedVersion: 2
-        x: 36
+        x: 31
         y: 0
-        width: 30
-        height: 40
+        width: 36
+        height: 29
       alignment: 9
-      pivot: {x: 0.9, y: 0.48}
+      pivot: {x: 0.68, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc60ec81e6ec43a42808cd575f9fea59
-      internalID: 1789862045
+      spriteID: cd38e371a7adb71458287ece25060380
+      internalID: -1463947059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Death_1
+      name: _CrouchAttack_1
       rect:
         serializedVersion: 2
-        x: 151
+        x: 139
         y: 0
-        width: 29
-        height: 40
+        width: 81
+        height: 29
       alignment: 9
-      pivot: {x: 0.95, y: 0.48}
+      pivot: {x: 0.45, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4169c691c16cbd54e96324c90197f79e
-      internalID: 1000526462
+      spriteID: a05ea5cf47d212b428a3371d988de99c
+      internalID: -1759856059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Death_2
+      name: _CrouchAttack_2
       rect:
         serializedVersion: 2
-        x: 265
+        x: 260
         y: 0
-        width: 43
-        height: 40
+        width: 53
+        height: 29
       alignment: 9
-      pivot: {x: 0.9, y: 0.48}
+      pivot: {x: 0.65, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7e7968ff9910964ab96418abbb4cbe0
-      internalID: -403782625
+      spriteID: 5df63a51107c793469bab57eb49251d7
+      internalID: -1320638075
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: _Death_3
+      name: _CrouchAttack_3
       rect:
         serializedVersion: 2
-        x: 379
-        y: 1
-        width: 59
-        height: 39
-      alignment: 9
-      pivot: {x: 0.8, y: 0.48}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a3cac084423e244488f461b3db308a4
-      internalID: 51513387
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Death_4
-      rect:
-        serializedVersion: 2
-        x: 493
+        x: 380
         y: 0
-        width: 57
-        height: 40
+        width: 50
+        height: 29
       alignment: 9
-      pivot: {x: 0.9, y: 0.48}
+      pivot: {x: 0.7, y: 0.65}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bb0f27b9d164c8545be92f12c9a5d840
-      internalID: -1788070241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Death_5
-      rect:
-        serializedVersion: 2
-        x: 613
-        y: 0
-        width: 58
-        height: 40
-      alignment: 9
-      pivot: {x: 0.95, y: 0.48}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c32bb7af7b6dbce4d99686e57d33de80
-      internalID: -1708420819
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Death_6
-      rect:
-        serializedVersion: 2
-        x: 733
-        y: 0
-        width: 60
-        height: 40
-      alignment: 9
-      pivot: {x: 0.9, y: 0.48}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 366d758dfc208e041a27f14ec765ab63
-      internalID: -407428727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Death_7
-      rect:
-        serializedVersion: 2
-        x: 853
-        y: 0
-        width: 58
-        height: 40
-      alignment: 9
-      pivot: {x: 0.9, y: 0.48}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ba19394080253c42b240b92438d43c3
-      internalID: -548198716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Death_8
-      rect:
-        serializedVersion: 2
-        x: 973
-        y: 0
-        width: 59
-        height: 40
-      alignment: 9
-      pivot: {x: 0.9, y: 0.48}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49b603eb60d558d4383bb256317dcd9c
-      internalID: 835262678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: _Death_9
-      rect:
-        serializedVersion: 2
-        x: 1093
-        y: 0
-        width: 60
-        height: 40
-      alignment: 9
-      pivot: {x: 0.9, y: 0.48}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a72911f5229108446ab0a4691ccd100b
-      internalID: 112540479
+      spriteID: 1c20bd8e8874865418b1496ca4f575af
+      internalID: -2034217142
       vertices: []
       indices: 
       edges: []
@@ -330,16 +204,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      _Death_0: 1789862045
-      _Death_1: 1000526462
-      _Death_2: -403782625
-      _Death_3: 51513387
-      _Death_4: -1788070241
-      _Death_5: -1708420819
-      _Death_6: -407428727
-      _Death_7: -548198716
-      _Death_8: 835262678
-      _Death_9: 112540479
+      _CrouchAttack_0: -1463947059
+      _CrouchAttack_1: -1759856059
+      _CrouchAttack_2: -1320638075
+      _CrouchAttack_3: -2034217142
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
