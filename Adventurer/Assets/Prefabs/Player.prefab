@@ -97,7 +97,6 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1.875, y: 2.5}
   m_Size: {x: 1.3125, y: 2.375}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -223,8 +222,6 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.875, y: 2.5}
-    newSize: {x: 1.875, y: 2.5}
     oldSize: {x: 1.3125, y: 2.375}
     newSize: {x: 1.3125, y: 2.375}
     adaptiveTilingThreshold: 0.5
@@ -482,8 +479,6 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  DashDistance: 10
-  DashForce: 40
   DashDistance: 5
   DashForce: 10
   ResetForcesOnExit: 0
@@ -724,7 +719,6 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  InitialWeapon: {fileID: 4533793285505389296, guid: c7ee8ede9ba0f214993344ca1fd3bca8,
   InitialWeapon: {fileID: 2377910713595695547, guid: 2ad9978f11e0add4f88cf03ff728de7b,
     type: 3}
   CanPickupWeapons: 1

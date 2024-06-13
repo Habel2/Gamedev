@@ -17,7 +17,6 @@ AnimationClip:
   m_PositionCurves: []
   m_ScaleCurves: []
   m_FloatCurves: []
-  m_PPtrCurves: []
   m_PPtrCurves:
   - serializedVersion: 2
     curve:
@@ -56,8 +55,6 @@ AnimationClip:
     m_Center: {x: 0, y: 0, z: 0}
     m_Extent: {x: 0, y: 0, z: 0}
   m_ClipBindingConstant:
-    genericBindings: []
-    pptrCurveMapping: []
     genericBindings:
     - serializedVersion: 2
       path: 0
@@ -86,7 +83,6 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1
     m_StopTime: 0.51666665
     m_OrientationOffsetY: 0
     m_Level: 0
