@@ -12,7 +12,7 @@ namespace MoreMountains.CorgiEngine
 	{
 		/// the exact name of the target level
 		[Tooltip("the exact name of the target level")]
-		public string LevelName;
+		public string LevelName = "Start_Scene";
 		/// whether or not changing level should trigger a fade
 		[Tooltip("whether or not changing level should trigger a fade")]
 		public bool Fade = true;
@@ -26,7 +26,7 @@ namespace MoreMountains.CorgiEngine
 		/// </summary>
 		public virtual void GoToLevel()
 		{
-			LevelManager.Instance.GotoLevel(LevelName, Fade, Save);
+			LevelManager.Instance.GotoLevel("Start_Scene", Fade, Save);
 		}
 
 		/// <summary>
