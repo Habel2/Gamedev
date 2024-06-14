@@ -20,7 +20,6 @@ GameObject:
   - component: {fileID: 2637042295647435074}
   - component: {fileID: 8356919309609986196}
   - component: {fileID: 3504093018005934519}
-  - component: {fileID: 8107194778993520510}
   - component: {fileID: 2740097210538679483}
   - component: {fileID: 5801084464286185060}
   - component: {fileID: 2700320106688815428}
@@ -519,26 +518,6 @@ MonoBehaviour:
   SuccessiveDashResetMethod: 0
   SuccessiveDashResetDuration: 2
   InvincibleWhileDashing: 0
---- !u!114 &8107194778993520510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4954317447173367284}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 157b891c059034cea94ae0c9e235df50, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
-  AbilityStopFeedbacks: {fileID: 0}
-  AbilityPermitted: 1
-  BlockingMovementStates: 
-  BlockingConditionStates: 
-  BlockingWeaponStates: 
-  ShakeParameters: {x: 1.5, y: 0.5, z: 1}
-  DiveAcceleration: 2
 --- !u!114 &2740097210538679483
 MonoBehaviour:
   m_ObjectHideFlags: 0
