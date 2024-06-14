@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 24
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -110,99 +110,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oak_woods_tileset_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d36d0ee278e27b4a82aa3e0e2ee1d64
-      internalID: 1158122506
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_1
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 323a7cd96dcf80240b1f38988cccec75
-      internalID: -1243719231
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_2
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a862a5d573156024aba16982b2e7c101
-      internalID: 1329595044
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_3
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6cae68b84d35106448b987daadae09ff
-      internalID: -2049749692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_4
       rect:
         serializedVersion: 2
-        x: 64
-        y: 344
-        width: 16
-        height: 16
+        x: 72
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -215,36 +131,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_5
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 367ac3e4cc2d30c40bfdbf791dfe85c6
-      internalID: -923096158
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_6
       rect:
         serializedVersion: 2
-        x: 112
-        y: 344
-        width: 16
-        height: 16
+        x: 121
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -257,36 +152,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_7
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed525974b06c848429d002bbff36fb2c
-      internalID: 12723136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_8
       rect:
         serializedVersion: 2
-        x: 144
-        y: 344
-        width: 16
-        height: 16
+        x: 145
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,12 +176,12 @@ TextureImporter:
       name: oak_woods_tileset_9
       rect:
         serializedVersion: 2
-        x: 160
-        y: 344
-        width: 16
-        height: 16
+        x: 169
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -320,36 +194,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_10
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f32a6441552608c4dad2f060738e6f43
-      internalID: -1149259632
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_11
       rect:
         serializedVersion: 2
-        x: 192
-        y: 344
-        width: 16
-        height: 16
+        x: 193
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -362,36 +215,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_12
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d13ab889976ca974cb994b2302377fbe
-      internalID: 511606828
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_13
       rect:
         serializedVersion: 2
         x: 240
-        y: 344
-        width: 16
-        height: 16
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -404,36 +236,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_14
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6e17efb37acf9d4ba71a03e42faceeb
-      internalID: 433334618
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_15
       rect:
         serializedVersion: 2
         x: 288
-        y: 344
-        width: 16
-        height: 16
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -441,27 +252,6 @@ TextureImporter:
       bones: []
       spriteID: 9288e1eb48ee3844dadb8353afc6911b
       internalID: -1040821558
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_16
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82ba176a6ca426b40ad3cfd6cc9599d1
-      internalID: -1715273966
       vertices: []
       indices: 
       edges: []
@@ -475,7 +265,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -496,7 +286,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -517,7 +307,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -538,7 +328,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -559,7 +349,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -580,7 +370,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -596,12 +386,12 @@ TextureImporter:
       name: oak_woods_tileset_23
       rect:
         serializedVersion: 2
-        x: 448
-        y: 344
-        width: 16
-        height: 16
+        x: 456
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -614,36 +404,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_24
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 344
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ef22e4d179587b245964c1c71a4111c3
-      internalID: -357738711
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_25
       rect:
         serializedVersion: 2
         x: 480
-        y: 344
-        width: 16
-        height: 16
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -660,11 +429,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 328
-        width: 16
-        height: 16
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -677,36 +446,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_27
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 265940b4b6746eb4c9e6608e86fbf04f
-      internalID: 1757303461
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_28
       rect:
         serializedVersion: 2
-        x: 32
-        y: 328
-        width: 16
-        height: 16
+        x: 24
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -723,11 +471,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 328
-        width: 16
-        height: 16
+        y: 336
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -735,279 +483,6 @@ TextureImporter:
       bones: []
       spriteID: 339f058d5ddd00a46b25d55771e20f10
       internalID: 1252667499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_30
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 095a832feaffc3b4bbcace4515695e83
-      internalID: -312773016
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_31
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3b74d2a7d05b814fb07cd8f67a1bb95
-      internalID: 354783833
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_32
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 980214207c4502d4686d6fb80ed4073b
-      internalID: -1742758148
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_33
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a5009b3b7dc929c428a970ba98af748e
-      internalID: -349823570
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_34
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e3db26487cf208643b14c18b92bbf45b
-      internalID: 436825071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_35
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c8b58019c1441a54a94b19f120c44407
-      internalID: 1838254800
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_36
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aee2935a21b6a0e4e91980d0d0a23dbd
-      internalID: 1973730779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_37
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f2126f51f03bc0240bb140b64c9af26f
-      internalID: -1327105000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_38
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d520c7ef85594fe4cac62fd5908aad7a
-      internalID: 149627972
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_39
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 247ee65984f0f9c44a6833ec99abcb8d
-      internalID: -284640913
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_40
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8a0df6a9d7107c44199a25c40f4b5b31
-      internalID: 1986085136
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_41
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7e6e89e94777c694495109613ce63dca
-      internalID: 122702184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_42
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9dfded200d360a945ada7ef297fe3424
-      internalID: 303408797
       vertices: []
       indices: 
       edges: []
@@ -1021,7 +496,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1042,7 +517,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1063,7 +538,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1084,7 +559,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1105,7 +580,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1126,7 +601,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1139,57 +614,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_49
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d08523bc6c48e54bb3184085d5ba74b
-      internalID: 480897960
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_50
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 328
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4c332693f0b29cb4e9ce6615a5f7004e
-      internalID: 1885572343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_51
       rect:
         serializedVersion: 2
         x: 480
-        y: 328
-        width: 16
-        height: 16
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1207,10 +640,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 312
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1223,36 +656,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_53
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 312
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: da64dfbb9bd1d0643ac07bbd6b5f5084
-      internalID: -1840726207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_54
       rect:
         serializedVersion: 2
-        x: 32
+        x: 24
         y: 312
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1265,36 +677,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_55
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 312
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4058abedd5766a84e9ab3fb227e8ae8e
-      internalID: 1913815613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_56
       rect:
         serializedVersion: 2
-        x: 80
+        x: 72
         y: 312
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1315,7 +706,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1336,7 +727,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1357,7 +748,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1378,7 +769,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1399,7 +790,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1412,78 +803,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_62
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 312
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d4f1d97e427744a44adf9e7dfd7675d5
-      internalID: -142057162
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_63
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 312
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aeaa112c83b847e42af6389487d20da8
-      internalID: 103860104
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_64
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 312
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9277ad36e4b16c64486698e2df2bea96
-      internalID: -523963102
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_65
       rect:
         serializedVersion: 2
         x: 0
-        y: 296
-        width: 16
-        height: 16
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1496,78 +824,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_66
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 296
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 96a3a559a8b3ed347ab5e83803478d11
-      internalID: 1331738452
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_67
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 296
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0b849d623ea4e724eb222ef68cf7de99
-      internalID: -1108523139
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_68
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 296
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 788e5b38637d7384e8a309f637c6028d
-      internalID: -1821123032
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_69
       rect:
         serializedVersion: 2
         x: 144
-        y: 296
-        width: 16
-        height: 16
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1580,36 +845,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_70
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 296
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f09561aa663de84fa71c5d5287d370d
-      internalID: 1227912007
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_71
       rect:
         serializedVersion: 2
         x: 240
-        y: 296
-        width: 16
-        height: 16
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1617,27 +861,6 @@ TextureImporter:
       bones: []
       spriteID: fa1870a82beb79b46b81fdd4a6263e76
       internalID: 1410880837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_72
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 296
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2ef7985d8cde9704497b2d6e30d4392f
-      internalID: -1821119227
       vertices: []
       indices: 
       edges: []
@@ -1651,7 +874,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1672,7 +895,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1693,7 +916,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1714,7 +937,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1730,12 +953,12 @@ TextureImporter:
       name: oak_woods_tileset_77
       rect:
         serializedVersion: 2
-        x: 448
-        y: 296
-        width: 16
-        height: 16
+        x: 456
+        y: 312
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1748,162 +971,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_78
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 296
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 046067b411aa5a54b844e364876573c8
-      internalID: 1400900710
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_79
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 296
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94c4e7a0dab8ccb4bb4bcad72a3e3dfc
-      internalID: -1760981499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_80
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6d9b84797b83f514ea3ffce157dee00a
-      internalID: 1518538442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_81
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1ac9c750a2521774782489ebd93d2180
-      internalID: -1519689807
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_82
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 43b4bf06083afff42a4adc1ad328f642
-      internalID: -995789885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_83
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34b991143c031b844803dea3a933429f
-      internalID: 1566477962
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_84
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85ba8eb5d584a81459bf533c0e80a200
-      internalID: 1244753284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_85
       rect:
         serializedVersion: 2
-        x: 80
-        y: 280
-        width: 16
-        height: 16
+        x: 72
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1911,216 +987,6 @@ TextureImporter:
       bones: []
       spriteID: 97e150d22a46b47429b62305803650f3
       internalID: 931598909
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_86
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2cdcd105246a5eb4db7534dd50a6b2dd
-      internalID: -1236454716
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_87
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 95173bf02b5d5fc43b405e6c30fdf673
-      internalID: 1794152475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_88
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 21066221df889a64d84249d148fa7ae5
-      internalID: -1188778134
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_89
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecbf9ea9b49ae8a4d830a2b38fbaf409
-      internalID: 965921532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_90
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0aba0ace7fbc5ec4d8bfe3ce90d49dd6
-      internalID: 673719207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_91
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41d096f3021bf1c458071659362ad1a9
-      internalID: 699145214
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_92
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0e05929c2cb39384fb0896033b84652a
-      internalID: 1167005170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_93
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5ab11b84be5a59439e612ab8fb08867
-      internalID: -573881897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_94
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 01206355d09afa743a03a03189fb5cb1
-      internalID: 330487498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_95
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7ab8bdd65c6bf044aa1229f3c444509
-      internalID: 898063623
       vertices: []
       indices: 
       edges: []
@@ -2134,7 +1000,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2155,7 +1021,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2176,7 +1042,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2197,7 +1063,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2218,7 +1084,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2239,7 +1105,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2255,12 +1121,12 @@ TextureImporter:
       name: oak_woods_tileset_102
       rect:
         serializedVersion: 2
-        x: 448
-        y: 280
-        width: 16
-        height: 16
+        x: 456
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2273,36 +1139,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_103
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 280
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 954b0d4291ed053408bec5d1711d3412
-      internalID: -2036593429
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_104
       rect:
         serializedVersion: 2
         x: 480
-        y: 280
-        width: 16
-        height: 16
+        y: 288
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2320,10 +1165,10 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 264
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2336,36 +1181,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_106
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 264
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e40f35b20d4603e49a2423ebca2956f2
-      internalID: 1337696439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_107
       rect:
         serializedVersion: 2
-        x: 32
+        x: 24
         y: 264
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2383,10 +1207,10 @@ TextureImporter:
         serializedVersion: 2
         x: 48
         y: 264
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2399,36 +1223,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_109
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 264
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90ac03c8ae69ea142a7922b9cee8d972
-      internalID: 1555514001
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_110
       rect:
         serializedVersion: 2
-        x: 80
+        x: 72
         y: 264
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2441,36 +1244,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_111
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 264
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 306ba43b742709242874aa989a90cf43
-      internalID: 847213523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_112
       rect:
         serializedVersion: 2
-        x: 128
+        x: 120
         y: 264
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2483,36 +1265,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_113
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 264
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c74d6819ed9fe34d9e71ea4e90f0ac2
-      internalID: 1045597942
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_114
       rect:
         serializedVersion: 2
-        x: 176
+        x: 168
         y: 264
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2525,36 +1286,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_115
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 264
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e2ecb4fd99563148932dc5312d7b424
-      internalID: -1766371869
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_116
       rect:
         serializedVersion: 2
-        x: 224
+        x: 216
         y: 264
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2567,36 +1307,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_117
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 264
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: edc2487afbe497244b126e35c2f9d198
-      internalID: -78180623
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_118
       rect:
         serializedVersion: 2
-        x: 272
+        x: 264
         y: 264
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2617,7 +1336,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2638,7 +1357,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2659,7 +1378,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2680,7 +1399,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2701,7 +1420,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2722,7 +1441,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2739,11 +1458,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 144
-        y: 248
-        width: 16
-        height: 16
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2756,36 +1475,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_126
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 248
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d5b0cc90b8f9c484699620c3b78ad529
-      internalID: 1252221591
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_127
       rect:
         serializedVersion: 2
         x: 240
-        y: 248
-        width: 16
-        height: 16
+        y: 240
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -2798,267 +1496,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_128
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 248
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc683419d2e9706498458cc7258766c1
-      internalID: 484158070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_129
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3536a949626b54b49b33adf986dc729d
-      internalID: -715981700
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_130
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 589526f227e0e104ea2e04e65f1ff0f2
-      internalID: 508490000
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_131
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 71d9f2f0b7ee7c6468dbfcba649748bd
-      internalID: 1935074904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_132
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af75b11052dc66b46b7cfd72d8fcf760
-      internalID: -537444620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_133
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81d4cc4e6e1ef6f4290fc2abb0350ed1
-      internalID: 1468630223
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_134
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6fdf2040eb218ca4d92bf75a5b5c2fec
-      internalID: -1768933748
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_135
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a72641f5b5eb528468554be240bf7a5b
-      internalID: 552575411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_136
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17a0e44980b85a944b777a65e07845f5
-      internalID: -1341988273
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_137
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fd35412cf5d11b540afd7a005ec26cd0
-      internalID: 791998569
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_138
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d17f319df87f9c34993c6ed09929bfe6
-      internalID: 828621346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_139
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 232
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0668955acaadc4d4e9ddeb8f2848a2cf
-      internalID: -714100008
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_140
       rect:
         serializedVersion: 2
         x: 0
         y: 216
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3074,12 +1520,12 @@ TextureImporter:
       name: oak_woods_tileset_141
       rect:
         serializedVersion: 2
-        x: 16
+        x: 24
         y: 216
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3092,57 +1538,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_142
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 216
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 501018dc79d76744bb41000cfa3a2e04
-      internalID: 95386254
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_143
+      name: oak_woods_tileset_144
       rect:
         serializedVersion: 2
         x: 48
         y: 216
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9caa2fe280097484f8404cf189062c79
-      internalID: -219165178
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_144
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 216
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3158,12 +1562,12 @@ TextureImporter:
       name: oak_woods_tileset_145
       rect:
         serializedVersion: 2
-        x: 80
+        x: 72
         y: 216
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3181,10 +1585,10 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 216
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3197,57 +1601,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_147
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 216
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c6ca7e2e3e41e0b40ace64667f048e13
-      internalID: 281811168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_148
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 216
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 17de40b5bf9ea194f94ae5913134f091
-      internalID: -937228338
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_149
       rect:
         serializedVersion: 2
-        x: 368
+        x: 360
         y: 216
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3265,10 +1627,10 @@ TextureImporter:
         serializedVersion: 2
         x: 432
         y: 216
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3281,36 +1643,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_151
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 216
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ec039eddccd52b4bb8a406f4e6a0b33
-      internalID: -1016691099
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_152
       rect:
         serializedVersion: 2
-        x: 464
+        x: 456
         y: 216
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3327,11 +1668,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 200
-        width: 16
-        height: 16
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3344,57 +1685,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_154
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 200
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f7adfd49d705384a8b40e8fb4172df0
-      internalID: -1726593348
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_155
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 200
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f19385c598faf4f4b85b992962ea9ded
-      internalID: -239995613
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_156
       rect:
         serializedVersion: 2
-        x: 80
-        y: 200
-        width: 16
-        height: 16
+        x: 72
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3407,36 +1706,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_157
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 200
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7aade62f139a384478fa1aee601d0268
-      internalID: 457071495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_158
       rect:
         serializedVersion: 2
-        x: 224
-        y: 200
-        width: 16
-        height: 16
+        x: 216
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3453,11 +1731,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 200
-        width: 16
-        height: 16
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3470,36 +1748,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_160
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 200
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6d04c232b03d2942a8adfa686d5a6d4
-      internalID: 1538557083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_161
       rect:
         serializedVersion: 2
         x: 288
-        y: 200
-        width: 16
-        height: 16
+        y: 191
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3512,36 +1769,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_162
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 200
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc5d1dde53ba7a6418e6ed997965096e
-      internalID: -1211673890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_163
       rect:
         serializedVersion: 2
-        x: 320
-        y: 200
-        width: 16
-        height: 16
+        x: 312
+        y: 191
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3554,57 +1790,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_164
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 200
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8317c7d506a00d142af0b8a84ad0696e
-      internalID: -1721859818
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_165
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 200
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc7c060b964f41147a3f755501519edd
-      internalID: 2053738897
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_166
       rect:
         serializedVersion: 2
         x: 432
-        y: 200
-        width: 16
-        height: 16
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3617,36 +1811,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_167
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 200
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eeb3727f0dda5b54f9f5a9d59717362c
-      internalID: 2144306852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_168
       rect:
         serializedVersion: 2
-        x: 464
-        y: 200
-        width: 16
-        height: 16
+        x: 456
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -3659,414 +1832,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_169
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 313aedde66d1386429323b86794488ba
-      internalID: 602990996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_170
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ba0bc70b809bea445959b06bae26a6a4
-      internalID: 856532220
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_171
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32b8684f3554f2846b30cad8977ddc06
-      internalID: -1614096525
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_172
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: acd91493515d30440979432bdc8aef91
-      internalID: -1900268430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_173
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08027ea04ff18df45af0fc1a9bb6924e
-      internalID: 1223173236
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_174
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a6ff27f2f604597449b1572113978c36
-      internalID: 1288880168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_175
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f89874cc2e267734c8859b36fcede649
-      internalID: 429712994
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_176
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d330af55b1b299d449695f39d01117cf
-      internalID: -978150469
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_177
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3dfa58ffd91ffbd4d801200fb18c39e3
-      internalID: 1263652600
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_178
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2f42c26ee41e8744c91c125e11ed0040
-      internalID: 1560283033
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_179
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6411940b0bacf94182641402591076e
-      internalID: 530308647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_180
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5def8239cdfd774f8c5d094b98ed4d7
-      internalID: -1845696051
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_181
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c909fd4116f0c9442a40c530712f15e0
-      internalID: -1223088360
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_182
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0274bdb23f2b48a4da0ef1707c7130da
-      internalID: 674029973
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_183
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 878d9b8797a3d9c41a2fa770b9b547ab
-      internalID: -701496377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_184
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3de409d653d246f478aa21a8e85b0ca2
-      internalID: 189279735
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_185
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9daac43cd610bde45a47ce6a0be79e1e
-      internalID: 371791289
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_186
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67debd803ba6930458c8d21806afc129
-      internalID: 2068355996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_187
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5fbd3fa31f5c33c48bbebb2b627dad34
-      internalID: -1760025986
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_188
       rect:
         serializedVersion: 2
-        x: 368
-        y: 184
-        width: 16
-        height: 16
+        x: 360
+        y: 192
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4079,78 +1853,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_189
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 966fc0932e8566e4da5a07c424f043a7
-      internalID: -2113829908
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_190
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b34957f9d9f450e4fafbe5f7109436ac
-      internalID: -1263276464
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_191
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 184
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 37147439678c78444ace732483e3f7a8
-      internalID: -686391219
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_192
       rect:
         serializedVersion: 2
         x: 0
-        y: 168
-        width: 16
-        height: 16
+        y: 167
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4163,36 +1874,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_193
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 168
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5792cff2c0eae743bdaae264a144611
-      internalID: 2128679621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_194
       rect:
         serializedVersion: 2
-        x: 32
-        y: 168
-        width: 16
-        height: 16
+        x: 24
+        y: 167
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4209,11 +1899,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 48
-        y: 168
-        width: 16
-        height: 16
+        y: 167
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4226,36 +1916,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_196
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 168
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7c6f112714854924898ed19d130e2baa
-      internalID: 1897062963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_197
       rect:
         serializedVersion: 2
-        x: 80
-        y: 168
-        width: 16
-        height: 16
+        x: 72
+        y: 167
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4268,36 +1937,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_198
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 168
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 79107455b9e3c4144863ff797c662818
-      internalID: 1247898659
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_199
       rect:
         serializedVersion: 2
-        x: 128
+        x: 120
         y: 168
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4310,36 +1958,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_200
+      name: oak_woods_tileset_201
       rect:
         serializedVersion: 2
         x: 144
         y: 168
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 13587bbe8063e6642a8e3d7b0970adce
-      internalID: 1033979431
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_201
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 168
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4355,12 +1982,12 @@ TextureImporter:
       name: oak_woods_tileset_202
       rect:
         serializedVersion: 2
-        x: 176
+        x: 168
         y: 168
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4373,36 +2000,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_203
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 168
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e75c5cab346b5541b7722ed5d8cf8d3
-      internalID: 952350924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_204
       rect:
         serializedVersion: 2
-        x: 224
+        x: 216
         y: 168
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4420,10 +2026,10 @@ TextureImporter:
         serializedVersion: 2
         x: 240
         y: 168
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4436,36 +2042,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_206
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 168
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8aa5167be3219f428e8ebaf1a213e84
-      internalID: 1767685439
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_207
       rect:
         serializedVersion: 2
         x: 432
         y: 168
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4478,36 +2063,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_208
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 168
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e2914f876acf1c4d815d9f07aa55c0a
-      internalID: 339507200
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_209
       rect:
         serializedVersion: 2
-        x: 464
+        x: 456
         y: 168
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4524,11 +2088,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 152
-        width: 16
-        height: 16
+        y: 143
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4541,99 +2105,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_211
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 777103dc53fe681439f1c5b0ee8b6229
-      internalID: -412208161
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_212
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a065d906fd9c3294d9cca76b2063d04d
-      internalID: 86323286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_213
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 74d7b47c329545a4db8817df8aae9478
-      internalID: 352389641
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_214
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d9917f18d3ab324db027c6cdcd57db4
-      internalID: -61447116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_215
       rect:
         serializedVersion: 2
-        x: 80
-        y: 152
-        width: 16
-        height: 16
+        x: 72
+        y: 143
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4646,57 +2126,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_216
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0c62f289ce2e0ae4b867fde7611d31f8
-      internalID: -687156259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_217
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d19e0edf86260f4ca649fa2ccf06731
-      internalID: 380475083
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_218
       rect:
         serializedVersion: 2
         x: 240
-        y: 152
-        width: 16
-        height: 16
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4709,36 +2147,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_219
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86d1ca6e1fe7edd4ebfeb362c5026942
-      internalID: 1924720195
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_220
       rect:
         serializedVersion: 2
         x: 288
-        y: 152
-        width: 16
-        height: 16
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4751,36 +2168,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_221
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 942d342cd54ac5b4c96e0dfdd16ddffc
-      internalID: 2080507097
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_222
       rect:
         serializedVersion: 2
-        x: 320
-        y: 152
-        width: 16
-        height: 16
+        x: 312
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4796,12 +2192,12 @@ TextureImporter:
       name: oak_woods_tileset_223
       rect:
         serializedVersion: 2
-        x: 352
-        y: 152
-        width: 16
-        height: 16
+        x: 360
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4814,57 +2210,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_224
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c65b0e17e15d07c44b7d88ed112f1780
-      internalID: -1642901017
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_225
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec4508a36f886f944966c36b2cdc1f48
-      internalID: 936016838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_226
       rect:
         serializedVersion: 2
-        x: 400
-        y: 152
-        width: 16
-        height: 16
+        x: 384
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4881,11 +2235,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 432
-        y: 152
-        width: 16
-        height: 16
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4898,36 +2252,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_228
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 152
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4d42715b66c667c469ada04e170cf017
-      internalID: 2123728845
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_229
       rect:
         serializedVersion: 2
-        x: 464
-        y: 152
-        width: 16
-        height: 16
+        x: 456
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -4940,225 +2273,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_230
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52b7a6bddbac1c8499c96896a455b365
-      internalID: 599436027
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_231
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: eb558d3cffece56429d42afa7bc540eb
-      internalID: -303531876
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_232
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a8597778e6a722c4db3609231d704ab7
-      internalID: -79096420
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_233
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2b76b4f20ee866147aee2eedd12063e3
-      internalID: -1417416164
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_234
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 487837b288c4c9247bd8f41451da17e4
-      internalID: -267009046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_235
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e99dacddd528b74f9317a44c014023c
-      internalID: -1810510405
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_236
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41a1284b46cfcfe498e47dea679260ed
-      internalID: -996749149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_237
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 12721c090d5773249ab5f1391a764c2d
-      internalID: -1483626607
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_238
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 723aefb30053556438666a671b1ad70d
-      internalID: 1873874621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_239
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf184303f8371774b842cbde5691bb20
-      internalID: 1668897498
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_240
       rect:
         serializedVersion: 2
-        x: 224
-        y: 136
-        width: 16
-        height: 16
+        x: 216
+        y: 144
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5171,288 +2294,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_241
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee676369e5334b948bd73dde9b83e556
-      internalID: 189693545
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_242
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 912fcd63d330034499d69b4d707584e5
-      internalID: -522247030
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_243
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ce59e2a4ba8fbd84397c2a685b5acb61
-      internalID: 371659949
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_244
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bbd99be31006de41aea63a688535fa5
-      internalID: -1627314276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_245
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe81d891c53ec5d438937dab82fc2463
-      internalID: -93628904
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_246
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63f8fd8a0e39fc44391717d6dd6603fd
-      internalID: 1640901644
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_247
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0717b662ac791c5488e8776673c3a8c0
-      internalID: 262825029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_248
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70233e943ef4cab42a8b9a9a3c1b656e
-      internalID: 444897265
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_249
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6ba7fbe05ba11d4b8dcbb486c17767d
-      internalID: -1855500409
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_250
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0475ba6b31c56484ca11615ff4419129
-      internalID: 1951005840
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_251
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3054db9d6031d49449938d6221c2c4ea
-      internalID: -1777630601
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_252
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 136
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8289f672125a6c24591ca9cf7ace56ab
-      internalID: -608524377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_253
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfc536c370cbb93448d48226de184ee8
-      internalID: -1614931647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_254
       rect:
         serializedVersion: 2
-        x: 128
+        x: 120
         y: 120
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5465,36 +2315,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_255
+      name: oak_woods_tileset_256
       rect:
         serializedVersion: 2
         x: 144
         y: 120
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 081d2373fef57d544a1e58566e83d002
-      internalID: 1187016381
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_256
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5510,12 +2339,12 @@ TextureImporter:
       name: oak_woods_tileset_257
       rect:
         serializedVersion: 2
-        x: 176
+        x: 168
         y: 120
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5528,36 +2357,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_258
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f65b637909ad00c4eb5fae4ef26a9542
-      internalID: 2137007802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_259
       rect:
         serializedVersion: 2
-        x: 224
+        x: 216
         y: 120
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5575,10 +2383,10 @@ TextureImporter:
         serializedVersion: 2
         x: 240
         y: 120
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5591,36 +2399,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_261
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90071b55f8c0e07499f16cb24a738f9a
-      internalID: 1587502475
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_262
       rect:
         serializedVersion: 2
         x: 432
         y: 120
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5633,36 +2420,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_263
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 120
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50914f64aedc3ee4b97a8eb92a7b3cbe
-      internalID: 1677995782
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_264
       rect:
         serializedVersion: 2
-        x: 464
+        x: 456
         y: 120
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5679,11 +2445,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 104
-        width: 16
-        height: 16
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5696,36 +2462,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_266
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81a6c082c8b585e46bc5dba79af184cf
-      internalID: 68152003
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_267
       rect:
         serializedVersion: 2
-        x: 32
-        y: 104
-        width: 16
-        height: 16
+        x: 24
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5738,36 +2483,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_268
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6daf5d82c05ad2940b6dfc05d4c5bba1
-      internalID: -2113451233
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_269
       rect:
         serializedVersion: 2
-        x: 64
-        y: 104
-        width: 16
-        height: 16
+        x: 48
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5783,12 +2507,12 @@ TextureImporter:
       name: oak_woods_tileset_270
       rect:
         serializedVersion: 2
-        x: 80
-        y: 104
-        width: 16
-        height: 16
+        x: 72
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5801,36 +2525,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_271
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ffd88032c4fee9d46b1d1c29d42de70c
-      internalID: -968755572
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_272
       rect:
         serializedVersion: 2
-        x: 224
-        y: 104
-        width: 16
-        height: 16
+        x: 216
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5847,11 +2550,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 104
-        width: 16
-        height: 16
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5864,36 +2567,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_274
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c3e8c0f4a15dac4dbd7fecfce218cc4
-      internalID: -2019311936
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_275
       rect:
         serializedVersion: 2
         x: 288
-        y: 104
-        width: 16
-        height: 16
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5906,36 +2588,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_276
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40f5ce07b019bff40a5b1bae6839b99a
-      internalID: -937968911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_277
       rect:
         serializedVersion: 2
-        x: 320
-        y: 104
-        width: 16
-        height: 16
+        x: 312
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5948,36 +2609,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_278
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3d009a36dbb74394f901acc544b61551
-      internalID: -597666243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_279
       rect:
         serializedVersion: 2
-        x: 368
-        y: 104
-        width: 16
-        height: 16
+        x: 360
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -5994,11 +2634,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 432
-        y: 104
-        width: 16
-        height: 16
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6011,36 +2651,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_281
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 104
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c65dadb8e63dc454ca947bfbad58af65
-      internalID: 2035684948
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_282
       rect:
         serializedVersion: 2
-        x: 464
-        y: 104
-        width: 16
-        height: 16
+        x: 456
+        y: 96
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6053,498 +2672,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_283
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 045f80bdbc39fa547860ca5100655ff4
-      internalID: 1582212712
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_284
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0192a5557a24f9342afa120e92621a57
-      internalID: 260277692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_285
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 72a11f692edab0a4f8c988de6e4ed08b
-      internalID: 696984996
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_286
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 371c6591a61fb4442a2bdd3d511a2450
-      internalID: -678926230
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_287
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5405a54f632d788489b36fda8247980e
-      internalID: -1146187745
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_288
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 721774bbc813eec4aa977a6bf67586c7
-      internalID: -362485566
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_289
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c5c0752089a2c484facb4df23aae8232
-      internalID: 329050028
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_290
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b2e7e21d8a3843488d38a8cdfb091a3
-      internalID: -1736126647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_291
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1beb8cae6f942764c8a9b6103e6a7501
-      internalID: -1250026428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_292
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 654fe605a01003d4499d6e4b5d119260
-      internalID: -472766395
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_293
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ec5941158646d8348913ecbac9299e5e
-      internalID: 140420890
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_294
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d35309889e0e8964f97ee6ad195e09b2
-      internalID: -1508542862
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_295
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 092d2abb8b58f3647866161b92f16fef
-      internalID: -1786968918
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_296
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4f0e0c419260f3846bde1fed960284b8
-      internalID: 1858826170
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_297
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c971ac914a2c994484301234b962117
-      internalID: 932854924
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_298
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b34d2cd6e9639ab4e8d832683effe75f
-      internalID: 508762724
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_299
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 933ccc5c1098a2b4e904a9558fdf838f
-      internalID: 84240122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_300
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5c0f16ba796975f4eb4b17862cd83fd7
-      internalID: -582438686
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_301
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3826a45f9dd667e44a7fdf2536a4b714
-      internalID: 467885625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_302
-      rect:
-        serializedVersion: 2
-        x: 368
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fc7268ce2c60d4a4eabc528670fb055a
-      internalID: 685244672
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_303
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ff9dcd7cdcdd6b40a556c5db7b327e2
-      internalID: -2000034892
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_304
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa9faf52fa5d347469e1c40f393e91ef
-      internalID: -1283440480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_305
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 88
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b64497add0e6e64458bab454139d89fa
-      internalID: 2062040130
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_306
       rect:
         serializedVersion: 2
         x: 0
         y: 72
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6557,57 +2693,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_307
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e85dc91982363a749b9fad667d346d21
-      internalID: 688150884
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_308
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86e84737621df9346aa0b17fca6b646a
-      internalID: 1842619100
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_309
       rect:
         serializedVersion: 2
-        x: 128
+        x: 120
         y: 72
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6625,10 +2719,10 @@ TextureImporter:
         serializedVersion: 2
         x: 144
         y: 72
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6641,36 +2735,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_311
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2871f13822729f546a66f2df22e9947b
-      internalID: -1555821116
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_312
       rect:
         serializedVersion: 2
-        x: 176
+        x: 168
         y: 72
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6683,36 +2756,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_313
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 67f20ef6b9c122949839bbefacff9a7f
-      internalID: -376517694
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_314
       rect:
         serializedVersion: 2
-        x: 368
+        x: 360
         y: 72
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6730,10 +2782,10 @@ TextureImporter:
         serializedVersion: 2
         x: 432
         y: 72
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6746,36 +2798,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_316
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 72
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e8a6366196bf63347a6e9620d7a2b1aa
-      internalID: 2031808025
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_317
       rect:
         serializedVersion: 2
-        x: 464
+        x: 456
         y: 72
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6792,11 +2823,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 56
-        width: 16
-        height: 16
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6809,36 +2840,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_319
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 14ebaccafa4f10d4b860a28e44e51ee1
-      internalID: -1464455047
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_320
       rect:
         serializedVersion: 2
-        x: 32
-        y: 56
-        width: 16
-        height: 16
+        x: 24
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6851,36 +2861,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_321
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e99b497ce7081f848ad18696db3a576c
-      internalID: 1471221325
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_322
       rect:
         serializedVersion: 2
-        x: 64
-        y: 56
-        width: 16
-        height: 16
+        x: 48
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6896,12 +2885,12 @@ TextureImporter:
       name: oak_woods_tileset_323
       rect:
         serializedVersion: 2
-        x: 80
-        y: 56
-        width: 16
-        height: 16
+        x: 72
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6918,11 +2907,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 432
-        y: 56
-        width: 16
-        height: 16
+        y: 48
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -6935,162 +2924,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_325
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 56
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bc648bf43753c247a1baed868f25214
-      internalID: 1995318260
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_326
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 611477f5c60df444d84aad48fb1668d1
-      internalID: -517248860
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_327
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ff0600a265bba54da51db5278343326
-      internalID: -1473256502
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_328
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c80620d06af00e49a9830c40d651ff1
-      internalID: -985051057
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_329
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9c9ed86c2cf9ff419ee02cd1dd68808
-      internalID: -176727407
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_330
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9bc8ecf4a4a72a443bc5c215fd6c2579
-      internalID: 1743421263
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_331
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fb701d6b6272382458592c37c1c5f19a
-      internalID: -412430312
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_332
       rect:
         serializedVersion: 2
-        x: 112
-        y: 40
-        width: 16
-        height: 16
+        x: 120
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7103,36 +2945,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_333
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9f31251711a45a446ad322ec89b88d01
-      internalID: 570859138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_334
       rect:
         serializedVersion: 2
         x: 144
-        y: 40
-        width: 16
-        height: 16
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7145,36 +2966,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_335
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 510baeffd3261b941ad7e0937112160f
-      internalID: -945397522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_336
       rect:
         serializedVersion: 2
-        x: 176
-        y: 40
-        width: 16
-        height: 16
+        x: 168
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7187,36 +2987,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_337
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 19cbcf1552223fc4bbf869e72b6c494e
-      internalID: -791044619
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_338
       rect:
         serializedVersion: 2
-        x: 208
-        y: 40
-        width: 16
-        height: 16
+        x: 192
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7229,36 +3008,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_339
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7675131c93e77d14c9240b899c39f455
-      internalID: 285851527
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_340
       rect:
         serializedVersion: 2
-        x: 240
-        y: 40
-        width: 16
-        height: 16
+        x: 216
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7271,36 +3029,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_341
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbae46fce9e75674ea14de64358dfbec
-      internalID: -1921442142
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_342
       rect:
         serializedVersion: 2
-        x: 272
-        y: 40
-        width: 16
-        height: 16
+        x: 240
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7313,36 +3050,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_343
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1c0ed776657cecf42a126d03474be839
-      internalID: 808526253
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_344
       rect:
         serializedVersion: 2
-        x: 304
-        y: 40
-        width: 16
-        height: 16
+        x: 264
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7355,36 +3071,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_345
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 61347384ad94d6b46a854017bb0892f8
-      internalID: -972928367
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_346
       rect:
         serializedVersion: 2
-        x: 336
-        y: 40
-        width: 16
-        height: 16
+        x: 288
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7400,12 +3095,12 @@ TextureImporter:
       name: oak_woods_tileset_347
       rect:
         serializedVersion: 2
-        x: 352
-        y: 40
-        width: 16
-        height: 16
+        x: 312
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7418,162 +3113,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_348
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 39d7f592dbeaa7a429a914bfd742b458
-      internalID: 1775414893
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_349
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b54bfc7b9d7748f4db16b90cfc11b751
-      internalID: 1554293848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_350
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 66fa25810ed9aca46910d6fc5dac32f2
-      internalID: 102479797
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_351
-      rect:
-        serializedVersion: 2
-        x: 432
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 85aec33be8f0ca649b25fdb8abc0a33e
-      internalID: -573891551
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_352
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52729b7ce2268054d811be74bcffdc26
-      internalID: 289322365
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_353
-      rect:
-        serializedVersion: 2
-        x: 464
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2c95db09199b89747966282fbf3029b1
-      internalID: 973488899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_354
-      rect:
-        serializedVersion: 2
-        x: 480
-        y: 40
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b8c06b3fd284cab4d904264b2ad3c065
-      internalID: 365545817
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_355
       rect:
         serializedVersion: 2
         x: 0
         y: 24
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7586,36 +3134,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_356
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ff10fa762de8c34eb4d94057e55822f
-      internalID: 1933029865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_357
       rect:
         serializedVersion: 2
-        x: 32
+        x: 24
         y: 24
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7628,36 +3155,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_358
+      name: oak_woods_tileset_359
       rect:
         serializedVersion: 2
         x: 48
         y: 24
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc8bbb83ebcad694b837d64278963cbd
-      internalID: 1380853095
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_359
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7673,12 +3179,12 @@ TextureImporter:
       name: oak_woods_tileset_360
       rect:
         serializedVersion: 2
-        x: 80
+        x: 72
         y: 24
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -7691,351 +3197,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_361
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6275e51a3ab1bda4fb16e04a34a5e69c
-      internalID: 131485085
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_362
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a1ecc59371ca4a4691ff2280871bdf3
-      internalID: 109102345
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_363
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bfc7f75ad8c824148896e2af63847a39
-      internalID: -1983720020
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_364
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1d66256bc339c0f45ac9218ec28a6da2
-      internalID: -346622268
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_365
-      rect:
-        serializedVersion: 2
-        x: 176
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bc38b1952e186cf42be0569162dd4565
-      internalID: -1346228071
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_366
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d8c71e8b6e946504ebb52389117b6f46
-      internalID: -20456568
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_367
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d4ba77957b9bd042bdfc0a6054726b5
-      internalID: -1242126449
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_368
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a95a8d8847241a418e46e241773a9c7
-      internalID: 1665093969
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_369
-      rect:
-        serializedVersion: 2
-        x: 240
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31f6a0d429cdcc042909170a8700e0b4
-      internalID: 197716207
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_370
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b449e179a3101914f90b387d4717d3df
-      internalID: 1313710690
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_371
-      rect:
-        serializedVersion: 2
-        x: 272
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cba5141d4f3236043b77adeb26decd24
-      internalID: 1091174733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_372
-      rect:
-        serializedVersion: 2
-        x: 288
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cff24db5cab0f6c4083e11fb27d3c876
-      internalID: -2078170990
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_373
-      rect:
-        serializedVersion: 2
-        x: 304
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54fd9da581c40b44fb4cce2826b94752
-      internalID: -428803504
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_374
-      rect:
-        serializedVersion: 2
-        x: 320
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 50aaaf3df9d222f46b675c1933c9b038
-      internalID: -558933885
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_375
-      rect:
-        serializedVersion: 2
-        x: 336
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 649bb578adea2ae4e9d0815568f85c0a
-      internalID: 207709588
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oak_woods_tileset_376
-      rect:
-        serializedVersion: 2
-        x: 352
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1073d3cddd25f2542a6732cefd30da4f
-      internalID: -1700070443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_377
       rect:
         serializedVersion: 2
         x: 384
         y: 24
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8048,36 +3218,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_378
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 34f5c7aa7a7448946963455c1ba12517
-      internalID: 1627150191
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_379
       rect:
         serializedVersion: 2
-        x: 416
+        x: 408
         y: 24
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8095,10 +3244,10 @@ TextureImporter:
         serializedVersion: 2
         x: 432
         y: 24
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8111,36 +3260,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_381
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 24
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e6bd0b035f3eb8e4fa14318766d30487
-      internalID: -1414181522
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_382
       rect:
         serializedVersion: 2
-        x: 464
+        x: 456
         y: 24
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8158,10 +3286,10 @@ TextureImporter:
         serializedVersion: 2
         x: 480
         y: 24
-        width: 16
-        height: 16
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8178,11 +3306,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
-        width: 16
-        height: 16
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8195,36 +3323,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_385
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 8
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 330a0e06b8b2dc14897af7cb91515ae4
-      internalID: 499423485
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_386
       rect:
         serializedVersion: 2
-        x: 32
-        y: 8
-        width: 16
-        height: 16
+        x: 24
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8240,12 +3347,12 @@ TextureImporter:
       name: oak_woods_tileset_387
       rect:
         serializedVersion: 2
-        x: 112
-        y: 8
-        width: 16
-        height: 16
+        x: 120
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8258,36 +3365,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_388
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 8
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5a6eeafc8b13503408805674dfa2406e
-      internalID: 1100553916
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_389
       rect:
         serializedVersion: 2
         x: 144
-        y: 8
-        width: 16
-        height: 16
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8300,36 +3386,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_390
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 8
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a482bf4d6ef318a4a8fb67715387d3df
-      internalID: 933467379
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_391
       rect:
         serializedVersion: 2
-        x: 176
-        y: 8
-        width: 16
-        height: 16
+        x: 168
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8346,11 +3411,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 192
-        y: 8
-        width: 16
-        height: 16
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8363,36 +3428,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_393
-      rect:
-        serializedVersion: 2
-        x: 208
-        y: 8
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f3aaf8bb1b570034e96af7267ea9d69e
-      internalID: 591748435
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_394
       rect:
         serializedVersion: 2
-        x: 224
-        y: 8
-        width: 16
-        height: 16
+        x: 216
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8409,11 +3453,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 240
-        y: 8
-        width: 16
-        height: 16
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8426,36 +3470,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_396
-      rect:
-        serializedVersion: 2
-        x: 256
-        y: 8
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1728943ff3802894eb9fd76eb34cebd9
-      internalID: -448899217
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_397
       rect:
         serializedVersion: 2
-        x: 272
-        y: 8
-        width: 16
-        height: 16
+        x: 264
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8472,11 +3495,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 288
-        y: 8
-        width: 16
-        height: 16
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8492,12 +3515,12 @@ TextureImporter:
       name: oak_woods_tileset_399
       rect:
         serializedVersion: 2
-        x: 304
-        y: 8
-        width: 16
-        height: 16
+        x: 336
+        y: 24
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8514,11 +3537,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 432
-        y: 8
-        width: 16
-        height: 16
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8531,36 +3554,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: oak_woods_tileset_401
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 8
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc2e3b479ea090142a94579d51335e63
-      internalID: -1089694366
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: oak_woods_tileset_402
       rect:
         serializedVersion: 2
-        x: 464
-        y: 8
-        width: 16
-        height: 16
+        x: 456
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -8577,11 +3579,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 480
-        y: 8
-        width: 16
-        height: 16
+        y: 0
+        width: 24
+        height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
