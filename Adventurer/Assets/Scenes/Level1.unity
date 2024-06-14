@@ -282,11 +282,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -98
+      value: 66.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -23
+      value: 26.6
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 7a343ffc127af4b41b1e509d55d21956, type: 3}
       propertyPath: m_LocalPosition.z
@@ -75889,6 +75889,94 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1072696438
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 87.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2551465645333265820, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473546732558395775, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: InitialHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4473546732558395775, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: MaximumHealth
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 4954317447173367284, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: m_Name
+      value: Bringer-of-Death-SpritSheet_0 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5662656319683351578, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: AfterTimeMax
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5662656319683351578, guid: 54b5f59766efe2d408833916244b7332,
+        type: 3}
+      propertyPath: AfterTimeMin
+      value: 1.5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 54b5f59766efe2d408833916244b7332, type: 3}
 --- !u!1 &1091761596
 GameObject:
   m_ObjectHideFlags: 0
@@ -79622,3 +79710,4 @@ SceneRoots:
   - {fileID: 840498805}
   - {fileID: 2142672971}
   - {fileID: 431154444}
+  - {fileID: 1072696438}
