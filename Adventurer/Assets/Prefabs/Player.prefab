@@ -365,7 +365,7 @@ MonoBehaviour:
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
   DeathFeedbacks: {fileID: 0}
-  DestroyOnDeath: 1
+  DestroyOnDeath: 0
   DelayBeforeDestruction: 0.5
   CollisionsOffOnDeath: 0
   GravityOffOnDeath: 0
@@ -479,8 +479,8 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   BlockingWeaponStates: 
-  DashDistance: 5
-  DashForce: 10
+  DashDistance: 6
+  DashForce: 15
   ResetForcesOnExit: 0
   ForceExactDistance: 0
   DetachFromMovingPlatformsOnDash: 0
