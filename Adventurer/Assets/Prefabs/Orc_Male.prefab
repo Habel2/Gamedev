@@ -382,7 +382,6 @@ MonoBehaviour:
   PointsWhenDestroyed: 100
   RespawnAtInitialLocation: 0
   ApplyDeathForce: 1
-  DeathForce: {x: 0, y: 10}
   DeathForce: {x: 0, y: 0}
   ResetForcesOnDeath: 0
   ResetColorOnRevive: 1

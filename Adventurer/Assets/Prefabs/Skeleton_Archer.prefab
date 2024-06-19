@@ -56,7 +56,6 @@ Transform:
   m_LocalPosition: {x: -5.6121, y: 16.3922, z: 0}
   m_LocalScale: {x: 0.71116567, y: 0.68612146, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
   m_Children:
   - {fileID: 8469114340914990832}
   - {fileID: 2994860787970400217}
@@ -369,14 +368,12 @@ MonoBehaviour:
   MaximumHealth: 10
   Invulnerable: 0
   ImmuneToDamage: 0
-  DamageFeedbacks: {fileID: 0}
   DamageFeedbacks: {fileID: 7635240882021875849}
   FeedbackIsProportionalToDamage: 0
   FlickerSpriteOnHit: 1
   FlickerColor: {r: 1, g: 0.078431375, b: 0.078431375, a: 1}
   ImmuneToKnockback: 0
   ImmuneToKnockbackIfZeroDamage: 0
-  DeathFeedbacks: {fileID: 0}
   DeathFeedbacks: {fileID: 6539333152245781559}
   DestroyOnDeath: 0
   DelayBeforeDestruction: 1
@@ -385,7 +382,6 @@ MonoBehaviour:
   PointsWhenDestroyed: 55
   RespawnAtInitialLocation: 0
   ApplyDeathForce: 1
-  DeathForce: {x: 0, y: 10}
   DeathForce: {x: 0, y: 0}
   ResetForcesOnDeath: 0
   ResetColorOnRevive: 1

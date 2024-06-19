@@ -32,7 +32,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
   m_Children:
   - {fileID: 2251622754720579384}
   m_Father: {fileID: 0}
@@ -100,7 +99,6 @@ MonoBehaviour:
   ReloadStopAnimationParameter: 
   WeaponAngleAnimationParameter: 
   WeaponAngleRelativeAnimationParameter: 
-  WeaponStartMMFeedback: {fileID: 0}
   WeaponStartMMFeedback: {fileID: 3222107021488733494}
   WeaponUsedMMFeedback: {fileID: 0}
   WeaponStopMMFeedback: {fileID: 0}
@@ -170,7 +168,6 @@ MonoBehaviour:
   ApplyDamageOnTriggerStay: 1
   MinDamageCaused: 1
   MaxDamageCaused: 2
-  Knockback: 0
   Knockback: 1
   KnockbackForce: {x: 10, y: 2}
   InvincibilityDuration: 0.5
@@ -237,7 +234,6 @@ MonoBehaviour:
   ReloadStopAnimationParameter: 
   WeaponAngleAnimationParameter: 
   WeaponAngleRelativeAnimationParameter: 
-  WeaponStartMMFeedback: {fileID: 0}
   WeaponStartMMFeedback: {fileID: 3222107021488733494}
   WeaponUsedMMFeedback: {fileID: 0}
   WeaponStopMMFeedback: {fileID: 0}
@@ -307,7 +303,6 @@ MonoBehaviour:
   ApplyDamageOnTriggerStay: 1
   MinDamageCaused: 1
   MaxDamageCaused: 2
-  Knockback: 0
   Knockback: 1
   KnockbackForce: {x: 10, y: 2}
   InvincibilityDuration: 0.5
@@ -374,7 +369,6 @@ MonoBehaviour:
   ReloadStopAnimationParameter: 
   WeaponAngleAnimationParameter: 
   WeaponAngleRelativeAnimationParameter: 
-  WeaponStartMMFeedback: {fileID: 0}
   WeaponStartMMFeedback: {fileID: 3222107021488733494}
   WeaponUsedMMFeedback: {fileID: 0}
   WeaponStopMMFeedback: {fileID: 0}
@@ -444,7 +438,6 @@ MonoBehaviour:
   ApplyDamageOnTriggerStay: 1
   MinDamageCaused: 1
   MaxDamageCaused: 2
-  Knockback: 0
   Knockback: 1
   KnockbackForce: {x: 10, y: 2}
   InvincibilityDuration: 0.5

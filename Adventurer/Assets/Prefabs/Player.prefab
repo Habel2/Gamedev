@@ -379,7 +379,6 @@ MonoBehaviour:
   PointsWhenDestroyed: 0
   RespawnAtInitialLocation: 0
   ApplyDeathForce: 1
-  DeathForce: {x: 0, y: 10}
   DeathForce: {x: 0, y: 0}
   ResetForcesOnDeath: 0
   ResetColorOnRevive: 1
@@ -438,7 +437,6 @@ MonoBehaviour:
   AirControl: 1
   AllowFlipInTheAir: 1
   ActiveAfterDeath: 0
-  TouchTheGroundFeedback: {fileID: 0}
   TouchTheGroundFeedback: {fileID: 1454682408472767895}
   MinimumAirTimeBeforeFeedback: 0.2
   StopWalkingWhenCollidingWithAWall: 0
@@ -576,7 +574,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd71e945bfcd4897b3a95607989c7d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
   AbilityStartFeedbacks: {fileID: 519111395642138571}
   AbilityStopFeedbacks: {fileID: 0}
   AbilityPermitted: 1
@@ -759,7 +756,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d317597e2b47bcb4e80316f1b372d79b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AbilityStartFeedbacks: {fileID: 0}
   AbilityStartFeedbacks: {fileID: 3691522406496465505}
   AbilityStopFeedbacks: {fileID: 0}
   AbilityPermitted: 1
@@ -783,7 +779,6 @@ MonoBehaviour:
   SuccessiveRollsAmount: 1
   SuccessiveRollsLeft: 1
   SuccessiveRollsResetDuration: 2
---- !u!1 &5732116202629896299
 --- !u!1 &2204433032197193699
 GameObject:
   m_ObjectHideFlags: 0
@@ -792,10 +787,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 5247688793162441995}
-  - component: {fileID: 1229410543097758909}
-  m_Layer: 0
-  m_Name: DashFeedback
   - component: {fileID: 4474269970617761374}
   - component: {fileID: 519111395642138571}
   m_Layer: 9
@@ -805,18 +796,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &5247688793162441995
 --- !u!4 &4474269970617761374
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5732116202629896299}
   m_GameObject: {fileID: 2204433032197193699}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.9945335, y: -2.1223392, z: -1.0244399}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -824,14 +811,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 670837129686330068}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1229410543097758909
 --- !u!114 &519111395642138571
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5732116202629896299}
   m_GameObject: {fileID: 2204433032197193699}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -915,7 +900,6 @@ MonoBehaviour:
         m_Calls: []
   DebugActive: 0
   FeedbacksList:
-  - rid: 7039464192184680450
   - rid: 7039464202520494086
   KeepPlayModeChanges: 0
   PerformanceMode: 0
@@ -924,12 +908,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 7039464192184680450
     - rid: 7039464202520494086
       type: {class: MMF_Sound, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks.MMTools}
       data:
         Active: 1
-        UniqueID: 1653502793
         UniqueID: -1830355312
         Label: Sound
         ChannelMode: 0
@@ -945,8 +927,6 @@ MonoBehaviour:
           CooldownDuration: 0
           InterruptsOnStop: 1
           NumberOfRepeats: 0
-          RepeatForever: 0
-          DelayBetweenRepeats: 1
           RepeatForever: 1
           DelayBetweenRepeats: 0.5
           MMFeedbacksDirectionCondition: 0
@@ -994,10 +974,8 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         RemapRangeFalloff: {x: 0, y: 1}
-        Owner: {fileID: 1229410543097758909}
         Owner: {fileID: 519111395642138571}
         DebugActive: 0
-        Sfx: {fileID: 8300000, guid: ef50e309434f8b348aec17103b0d62c3, type: 3}
         Sfx: {fileID: 8300000, guid: f9719e46296da9e479ac696600fb32c0, type: 3}
         RandomSfx: []
         TestPlayButton:
@@ -1049,7 +1027,6 @@ MonoBehaviour:
           m_PreInfinity: 2
           m_PostInfinity: 2
           m_RotationOrder: 4
---- !u!1 &5867641945875917747
 --- !u!1 &5617914309149795395
 GameObject:
   m_ObjectHideFlags: 0
@@ -1058,10 +1035,6 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2486786612696129253}
-  - component: {fileID: 7670761647528639893}
-  m_Layer: 0
-  m_Name: JumpFeedback
   - component: {fileID: 2633881918418065594}
   - component: {fileID: 3691522406496465505}
   m_Layer: 9
@@ -1071,18 +1044,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2486786612696129253
 --- !u!4 &2633881918418065594
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5867641945875917747}
   m_GameObject: {fileID: 5617914309149795395}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.3948097, y: -2.0111752, z: -1.0263294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -1090,14 +1059,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 670837129686330068}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7670761647528639893
 --- !u!114 &3691522406496465505
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5867641945875917747}
   m_GameObject: {fileID: 5617914309149795395}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1181,7 +1148,6 @@ MonoBehaviour:
         m_Calls: []
   DebugActive: 0
   FeedbacksList:
-  - rid: 7039464192184680449
   - rid: 7039464202520494089
   - rid: 7039464202520494093
   KeepPlayModeChanges: 0
@@ -1191,12 +1157,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 7039464192184680449
     - rid: 7039464202520494089
       type: {class: MMF_Sound, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks.MMTools}
       data:
         Active: 1
-        UniqueID: -1889557797
         UniqueID: 318062463
         Label: Sound
         ChannelMode: 0
@@ -1259,10 +1223,8 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         RemapRangeFalloff: {x: 0, y: 1}
-        Owner: {fileID: 7670761647528639893}
         Owner: {fileID: 3691522406496465505}
         DebugActive: 0
-        Sfx: {fileID: 8300000, guid: d56e19b134b4646408e10e566bfcb99d, type: 3}
         Sfx: {fileID: 8300000, guid: ddc55f931f9d9ed4d9f48599bc9773d6, type: 3}
         RandomSfx: []
         TestPlayButton:
@@ -1398,26 +1360,21 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7055570428334675948}
-  - component: {fileID: 8897126751496032200}
   - component: {fileID: 5247688793162441995}
   - component: {fileID: 1229410543097758909}
   m_Layer: 0
-  m_Name: GetHitFeedback
   m_Name: DashFeedback
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7055570428334675948
 --- !u!4 &5247688793162441995
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8026096149058973452}
   m_GameObject: {fileID: 5732116202629896299}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
@@ -1427,14 +1384,12 @@ Transform:
   m_Children: []
   m_Father: {fileID: 670837129686330068}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8897126751496032200
 --- !u!114 &1229410543097758909
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8026096149058973452}
   m_GameObject: {fileID: 5732116202629896299}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -1518,7 +1473,6 @@ MonoBehaviour:
         m_Calls: []
   DebugActive: 0
   FeedbacksList:
-  - rid: 7039464192184680452
   - rid: 7039464192184680450
   - rid: 7039464202520494092
   KeepPlayModeChanges: 0
@@ -1528,12 +1482,10 @@ MonoBehaviour:
   references:
     version: 2
     RefIds:
-    - rid: 7039464192184680452
     - rid: 7039464192184680450
       type: {class: MMF_Sound, ns: MoreMountains.Feedbacks, asm: MoreMountains.Feedbacks.MMTools}
       data:
         Active: 1
-        UniqueID: 1684881974
         UniqueID: 1653502793
         Label: Sound
         ChannelMode: 0
@@ -1596,10 +1548,8 @@ MonoBehaviour:
           m_PostInfinity: 2
           m_RotationOrder: 4
         RemapRangeFalloff: {x: 0, y: 1}
-        Owner: {fileID: 8897126751496032200}
         Owner: {fileID: 1229410543097758909}
         DebugActive: 0
-        Sfx: {fileID: 8300000, guid: adff5f5f66186aa44bdad633057a15a5, type: 3}
         Sfx: {fileID: 8300000, guid: ef50e309434f8b348aec17103b0d62c3, type: 3}
         RandomSfx: []
         TestPlayButton:
@@ -1610,8 +1560,6 @@ MonoBehaviour:
         PoolSize: 10
         UseLegacyEventsMode: 0
         StopSoundOnFeedbackStop: 1
-        MinVolume: 1
-        MaxVolume: 1
         MinVolume: 0.5
         MaxVolume: 0.5
         MinPitch: 1
@@ -1627,6 +1575,27 @@ MonoBehaviour:
         MaxDistance: 500
         UseCustomRolloffCurve: 0
         CustomRolloffCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        UseSpatialBlendCurve: 0
+        SpatialBlendCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        UseReverbZoneMixCurve: 0
+        ReverbZoneMixCurve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        UseSpreadCurve: 0
+        SpreadCurve:
           serializedVersion: 2
           m_Curve: []
           m_PreInfinity: 2
@@ -2756,24 +2725,3 @@ MonoBehaviour:
           AmplitudeX: 0
           AmplitudeY: 0
           AmplitudeZ: 0
-        UseSpatialBlendCurve: 0
-        SpatialBlendCurve:
-          serializedVersion: 2
-          m_Curve: []
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        UseReverbZoneMixCurve: 0
-        ReverbZoneMixCurve:
-          serializedVersion: 2
-          m_Curve: []
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
-        UseSpreadCurve: 0
-        SpreadCurve:
-          serializedVersion: 2
-          m_Curve: []
-          m_PreInfinity: 2
-          m_PostInfinity: 2
-          m_RotationOrder: 4
