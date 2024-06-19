@@ -1453,6 +1453,27 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Bringer-of-Death-0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 648
+        width: 69
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28ed4f442dca36a49a875f237508fe33
+      internalID: -1319536678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -1464,6 +1485,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
+      Bringer-of-Death-0: -1319536678
       Bringer-of-Death-SpritSheet_0: -1859048465
       Bringer-of-Death-SpritSheet_1: 1989662762
       Bringer-of-Death-SpritSheet_10: 205560716
